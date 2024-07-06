@@ -2,7 +2,11 @@ import random
 
 
 def words() -> tuple:
-    return 'hello', 'world', 'town', 'city', 'address'
+    return ('hello',
+            'world',
+            'town',
+            'city',
+            'address',)
 
 
 def main():
