@@ -9,6 +9,7 @@ def main():
     err_words = tuple()
 
     for i, word in enumerate(tuple(i.upper() for i in words())):
+
         new_word = ''
         for j in word:
             while True:
