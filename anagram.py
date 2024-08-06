@@ -6,7 +6,8 @@ def words() -> tuple:
             'world',
             'town',
             'city',
-            'address',)
+            'address',
+            'kitty')
 
 
 def create_anagram():
